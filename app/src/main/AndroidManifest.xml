@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewAPP">
+        <activity android:name=".Communicate"></activity>
+        <activity android:name=".Log_account_creation_three" />
+        <activity android:name=".Log_account_creation_two" />
+        <activity android:name=".Log_account_creation" />
+        <activity android:name=".Log_forget_password_two" />
+        <activity android:name=".Login" />
+        <activity android:name=".Log_forget_password" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

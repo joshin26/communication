@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Log_account_creation_three"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+        <Button
+            android:id="@+id/back_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="戻る"
+            android:textSize="25dp"
+            android:layout_marginRight="20dp" />
+        <TextView
+            android:id="@+id/confirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="確認コード"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="80dp"
+            android:textColor="@color/black"/>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="確認コード"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/confirmation_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"/>
+
+        <ImageButton
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/update" />
+    </TableRow>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="確認コード"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/confirmation_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="確認コードを入力"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/get_confirmation_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完成"
+        android:textSize="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Log_account_creation"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+    <TableRow android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="戻る"
+            android:textSize="25dp"
+            android:layout_marginRight="20dp" />
+        <TextView
+            android:id="@+id/new_creation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新規登録"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="80dp"
+            android:textColor="@color/black"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="アカウント"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="アカウントを入力" />
+    </TableRow>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="アカウント確認"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/account_confirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="アカウントをもう一回入力"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/next_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="次へ"
+        android:textSize="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="50dp"/>
+
+</TableLayout>
